@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67c77a01-f5d4-431a-9f6a-7cfd026e9628" name="Changes" comment="" />
+    <list default="true" id="67c77a01-f5d4-431a-9f6a-7cfd026e9628" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +18,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/source (1)/Source/Version initial" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Version initial" />
   </component>
   <component name="ProjectId" id="23wf1qOLFVM46WVjknX2qGXD1Ep" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,7 +29,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Version initial/src/main/java/com/telly/config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSANG\IdeaProjects\git\Version initial\src\main\java\com\telly\config" />
+      <recent name="C:\Users\SAMSANG\IdeaProjects\git\Version initial\WebContent\WEB-INF\jsps" />
+      <recent name="C:\Users\SAMSANG\IdeaProjects\git\Version initial\src\main\java\com\telly\controllers" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="git [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
