@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67c77a01-f5d4-431a-9f6a-7cfd026e9628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Version initial/src/main/java/com/telly/config/security-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version initial" beforeDir="false" afterPath="$PROJECT_DIR$/Version initial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/telly/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/telly/controllers/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Version initial" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23wf1qOLFVM46WVjknX2qGXD1Ep" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +31,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Version initial/src/main/java/com/telly/config" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
