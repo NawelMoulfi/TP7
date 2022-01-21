@@ -31,6 +31,22 @@ public class UserController {
 		return "createaccount";
 	}
 
+	@RequestMapping(value = "/reservebook", method = RequestMethod.POST)
+	public String createReserveBook(@Validated(FormValidationGroup.class) Reserve reserve, BindingResult result, Principal principal) {
+
+		if (result.hasErrors()) {
+			return "reservebus";
+		}
+
+		String username = principal.getName();
+		reserve.getUser().setUsername(username);
+
+		reserveService.reserve(reserve);
+
+
+		return "home";
+
+	}
 	@RequestMapping(value = "/createuser", method = RequestMethod.POST)
 	public String createUser(@Validated(FormValidationGroup.class) User user, BindingResult result) {
 
