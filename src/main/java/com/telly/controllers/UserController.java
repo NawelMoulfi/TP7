@@ -23,12 +23,29 @@ public class UserController {
 		return "loggedout";
 	}
 
+
 	@RequestMapping("/createaccount")
 	public String createAccount(Model model, Principal principal) {
 
 		model.addAttribute("user", new User());
 
 		return "createaccount";
+	}
+
+	@RequestMapping(value = "/getreservations", method = RequestMethod.GET)
+	public String getReserveBook(@Validated(FormValidationGroup.class) Reserve reserve, Model model, Principal principal) {
+
+
+		String username = principal.getName();
+		reserve.getUser().setUsername(username);
+
+		List<Reserve> reserves = reserveService.getReserves(username);
+		model.addAttribute("reserves", reserves);
+		System.out.println(reserves);
+
+
+		return "home";
+
 	}
 
 	@RequestMapping(value = "/reservebook", method = RequestMethod.POST)
